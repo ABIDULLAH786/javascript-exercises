@@ -6,6 +6,9 @@ function replaceVowel(str){
     {
         if(!vowels.includes(str[i]))
             withOutVowels+=str[i];
+        else
+            withOutVowels+="*";
+
     }
     return withOutVowels;
 }
