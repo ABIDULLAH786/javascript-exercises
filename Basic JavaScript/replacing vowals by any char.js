@@ -1,5 +1,4 @@
 function replaceVowel(str){
-
     let withOutVowels=''
     vowels = 'aeiou';
     for(let i=0; i<str.length;i++)
@@ -8,9 +7,8 @@ function replaceVowel(str){
             withOutVowels+=str[i];
         else
             withOutVowels+="*";
-
     }
     return withOutVowels;
 }
 
-console.log(replaceVowel("Hello World")); //Hll Wrld
+console.log(replaceVowel("Hello World")); //H*ll* W*rld
