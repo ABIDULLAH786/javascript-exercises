@@ -17,8 +17,8 @@ const calculate = (radius, logic) => {
     return output;
 }
 
-// console.log("Circumference of Circles: ", calculate(radius, circumference))
-// console.log("Area of Circles: ", calculate(radius, area))
+console.log("Circumference of Circles: ", calculate(radius, circumference))
+console.log("Area of Circles: ", calculate(radius, area))
 
 
 // This is Example with out HOF
