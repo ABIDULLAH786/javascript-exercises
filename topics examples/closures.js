@@ -6,8 +6,8 @@ function funX() {
     }
 }
 var a = 7
-// funX()();
-// console.log(a)
+funX()();
+console.log(a)
 
 // Example 2:
 function funX() {
@@ -19,8 +19,8 @@ function funX() {
     return funY
 }
 var a = 10
-// funX()(); // 100
-// console.log(a)  // 10
+funX()(); // 100
+console.log(a)  // 10
 
 // Example 3: Counter
 function counter() {
@@ -47,7 +47,6 @@ function Counter() {
     }
 }
 const counter2 = new Counter();
-console.log("Counter result")
 counter2.increment();
 counter2.increment();
 counter2.decrement();
